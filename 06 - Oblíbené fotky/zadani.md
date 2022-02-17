@@ -10,15 +10,15 @@ Dostanu pole = [6,5,4,2,1]
 
 > Vstupní kód
 ````js
-let favoriteSongs = [210, 162, 132, 78, 37, 30, 23]
+let favoritePhotos = [210, 162, 132, 78, 37, 30, 23]
 
-function orderSongsAndReturn(n) {
-    let nthSongs = [];
+function orderPhotosAndReturn(n) {
+    let nthPhotos = [];
 
     //sem píš kód
 
-    return nthSongs;
+    return nthPhotos;
 }
 
-orderSongsAndReturn(2);
+orderPhotosAndReturn(2);
 ````
