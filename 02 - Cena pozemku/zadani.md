@@ -32,16 +32,10 @@ function calculateLandPrice(land) {
     let landPrice = 0;
 
     //sem piš kód
-    
+
     return landPrice;
 }
 
-let landPrice = 0;
 
-lands.forEach(land => {
-    landPrice += calculateLandPrice(land);
-    
-});
-
-console.log(landPrice);
+console.log(calculateLandPrice(lands));
 ```
