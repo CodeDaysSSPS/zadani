@@ -29,13 +29,18 @@ Cílem funkce je vrátit pole, které se nebude rovnat originálnímu poli.
 > Vstupní kód
 ````js
 class Song {
-    constructor(_name, _author) {
-        this.name = _name;
-        this.author = _author;
+    constructor(name, author) {
+        this.name = name;
+        this.author = author;
     }
 }
 
-let originalSongs = [new Song("Cigarette Duet", "Princess Chelsea"), new Song("Jungle", "Emma Louise"), new Song("No Cry", "Fasion"), new Song("Cipher", "LEMMiNO"), new Song("After Dark", "Mr.Kitty")];
+let originalSongs = [
+    new Song("Cigarette Duet", "Princess Chelsea"),
+    new Song("Jungle", "Emma Louise"),
+    new Song("No Cry", "Fasion"),
+    new Song("Cipher", "LEMMiNO"),
+    new Song("After Dark", "Mr.Kitty")];
 
 function shuffle(songs) {
     //Funkce shuffle() zkopiruje originální pole a bude dělat úpravy přímo v kopii.
